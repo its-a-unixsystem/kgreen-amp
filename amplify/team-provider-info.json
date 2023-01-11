@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kgreenamp-dev-144702-authRole",
+      "UnauthRoleArn": "arn:aws:iam::265489588971:role/amplify-kgreenamp-dev-144702-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::265489588971:role/amplify-kgreenamp-dev-144702-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-kgreenamp-dev-144702-deployment",
+      "UnauthRoleName": "amplify-kgreenamp-dev-144702-unauthRole",
+      "StackName": "amplify-kgreenamp-dev-144702",
+      "StackId": "arn:aws:cloudformation:eu-central-1:265489588971:stack/amplify-kgreenamp-dev-144702/6e7f3820-91b6-11ed-991c-02440cb02bd6",
+      "AmplifyAppId": "dhhoixjg6onxt",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-kgreenamp-dev-144702-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "function": {
+        "kgreenamp50ef649aPostConfirmation": {
+          "GROUP": "",
+          "deploymentBucketName": "amplify-kgreenamp-dev-144702-deployment",
+          "s3Key": "amplify-builds/kgreenamp50ef649aPostConfirmation-4938324433426d64757a-build.zip"
+        }
+      },
+      "auth": {
+        "kgreenamp2ca15f9e": {}
+      }
+    }
+  }
+}
