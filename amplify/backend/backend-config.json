@@ -31,5 +31,25 @@
         ]
       }
     }
+  },
+  "api": {
+    "kgreenapi": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 300,
+              "apiKeyExpirationDate": "2023-11-07T21:24:57.943Z",
+              "description": "dynamoaces"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
   }
 }

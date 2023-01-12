@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -14,26 +14,70 @@
 }
 
 .App-header {
-  background-color: #ffffff;
+  background-color: #00ff04;
   color: #00ff2f;
-  min-height: 100vh;
+  min-height: 5vh;
+  justify-content: space-around;
+  font-size: calc(14px + 2vmin);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  padding: 1px;
+}
+.projectsdetails {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(22, 255, 22);
+  justify-content: space-around;
+  
+}
+.navileft {
+  height: 100%; /* 100% Full-height */
+width: 120; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 100; /* Stay at the top */
+left: 0px;
+background: linear-gradient(to right, white, rgb(210, 210, 210));
+overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.details {
+  position:relative;
+  left: 550px;
+  background:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color:yellow;
+}
+.red {
+  color:red;
+}
+.proj_type {
+  background: #00ff2f;
+ display: inline-flex;
+ box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.bread {
+  font-family: Arial, sans-serif;
+  font-size: 18;
+  font-weight: bold;
+}
+.editable:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+  background-color: #f9f9f9;
+}
+.editable:active {
+  color: red;
+}
+.gray-input {
+  border: 1px solid gray;
 }
 
 .App-link {
   color: #00ff2f;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

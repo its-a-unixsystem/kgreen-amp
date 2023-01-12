@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "kgreenapi",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-01-11T21:25:01.002Z"
+}

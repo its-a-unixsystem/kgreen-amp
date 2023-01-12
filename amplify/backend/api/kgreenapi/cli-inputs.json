@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "kgreenapi",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 300,
+      "apiKeyExpirationDate": "2023-11-07T21:24:57.943Z",
+      "keyDescription": "dynamoaces"
+    },
+    "additionalAuthTypes": [],
+    "conflictResolution": {}
+  }
+}
