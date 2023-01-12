@@ -10,6 +10,8 @@ import {
   Authenticator,
   withAuthenticator,
 } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+
 // graphql
 import { listProjects } from './graphql/queries';
 import { updateProject } from './graphql/mutations';
