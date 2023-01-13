@@ -117,18 +117,18 @@ function App() {
       <p className="bread"> Basis-Daten <span class="green">●</span> > Ist-Analyse <span class="yellow">●</span> > Potenzial-Analyse <span class="red">●</span> > Szenario-Analyse <span class="green">●</span> > Technologieauswahl <span class="red">●</span>
       </p>
       <h2>Daten prüfen und weiter</h2>
-      <h3>Ihre Kurzbeschriebung des Projektes</h3>
+      <h3>Ihre Kurzbeschreibung des Projektes</h3>
       
       {isEditing ? (
         <>
         <input
-  type="text"
-  className="gray-input"
-  value={selectedProject.description}
-  onChange={handleDescriptionChange}
-  size={selectedProject.description.length}
-  autoFocus
-  onKeyPress={(e) => {
+	    type="text"
+	    className="gray-input"
+	    value={selectedProject.description}
+	    onChange={handleDescriptionChange}
+	    size={selectedProject.description.length}
+	    autoFocus
+	    onKeyPress={(e) => {
     if (e.key === "Enter") {
       handleSave();
     }
@@ -137,10 +137,10 @@ function App() {
         </>
       ) : (
         <p 
-  className="editable"
-  contentEditable={isEditing}
-  onClick={() => setIsEditing(true)}
->
+	    className="editable"
+	    contentEditable={isEditing}
+	    onClick={() => setIsEditing(true)}
+	>
   {selectedProject.description}
 </p>
       )}
